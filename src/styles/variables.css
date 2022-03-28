@@ -1,0 +1,15 @@
+:root {
+	--main-bg-color: #CECED0;
+    --second-bg-color: #C5C8CF;
+	--tertiary-bg-color:#C9C7CA;
+	--primary: #3c6e71;
+	--secundary: #2F3B49;
+	--tertiary: #7B91A8;
+	--border-color:#A9ADB0;
+
+	--success: green;
+	--alert: #ff1900;
+	--light: #CECED0;
+	--superlight: #EDFDFC;
+	--dark: #28394D;
+}

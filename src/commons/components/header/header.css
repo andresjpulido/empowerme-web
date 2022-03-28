@@ -1,0 +1,41 @@
+@import "../../../styles/variables.css";
+
+header {
+	background-color: var(--dark);
+    background-image: linear-gradient(var(--dark), black);
+	display: flex;
+	padding: 1.3rem;
+    
+}
+
+header > div:first-child {
+    border-right: .1rem;
+    border-style: solid;
+    border-color: var(--light);
+    padding-right: 2rem;
+}
+
+header > div:last-child{
+    align-self: center;
+    color: var(--tertiary); 
+    font-size: 1rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 2rem;
+}
+
+header > div > h1 {
+	font-size: 2rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > div > h1 > span:first-child {
+	color: var(--superlight);
+}
+
+header > div > h1 > span:last-child {
+	color: var(--tertiary);
+}
+
+header div {
+	color: var(--superlight);
+}

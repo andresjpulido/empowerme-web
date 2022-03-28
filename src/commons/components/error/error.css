@@ -1,0 +1,22 @@
+ 
+
+.error{
+    background-color: $tertiary;
+    color: $alert;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9rem;
+    border-left-style: solid;
+    border-color: $alert;
+    border-width: 10px;
+ 
+}
+
+.error > div{
+    margin: 1rem;
+}
+.error > div:first-child {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+ 

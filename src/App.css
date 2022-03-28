@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+@import "./styles/variables.css";
+
+.content {
+	display: flex;
+	background-color: var(--main-bg-color);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content > div:last-child {
+	flex-grow: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page {
+	margin: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-page {
+	border-bottom: solid;
+	border-width: 0.1rem;
+	border-color: var(--border-color);
+	color: var(--dark);
 }
 
-.App-link {
-  color: #61dafb;
+.header-page h1 {
+	font-size: 1.6rem;
+	padding-bottom: 0.8rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table {
+	border-left: 1px solid var(--border-color);
+	border-top: 1px solid var(--border-color);
+
+	border-color: var(--border-color);
+	display: table;
+	width: 100%;
 }
+
+.table-header {
+	display: table-header-group;
+	font-weight: bold;
+	background-color: var(--tertiary-bg-color);
+	color: var(--dark);
+}
+
+.table-header-cell {
+	display: table-cell;
+	padding: 0.5rem;
+	text-align: justify;
+	border-bottom: 1px solid var(--border-color);
+	border-right: 1px solid var(--border-color);
+}
+
+.table-body {
+	display: table-row-group;
+}
+
+.table-row {
+	display: table-row;
+}
+
+.body-cell {
+	display: table-cell;
+	border-bottom: 0.05rem solid var(--border-color);
+	border-right: 0.05rem solid var(--border-color);
+	padding: 0.5rem;
+}
+
+.form {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	display: table-caption;
+	justify-content: space-between;
+}
+
+.form-button {
+	background-color: var(--primary);
+	color: var(--light);
+	font-size: 0.8rem;
+	border: none;
+	border-radius: 0.3rem;
+	padding: 0.5rem 1rem;
+}
+
+input:not([type="checkbox"]),
+select,
+textarea {
+	padding: 0.5rem;
+	border: 0.1rem solid var(--border-color);
+	background-color: var(--main-bg-color);
+	font-size: 0.8rem; 
+}
+
+button:hover {
+	cursor: pointer;
+}
+

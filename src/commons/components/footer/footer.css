@@ -1,0 +1,10 @@
+@import "../../../styles/variables.css";
+
+footer {
+	background-color: var(--secundary);
+	color: var(--tertiary);
+	font-size: 1rem;
+	padding: 2rem;
+	text-align: center;
+	margin-top: 1rem;
+}

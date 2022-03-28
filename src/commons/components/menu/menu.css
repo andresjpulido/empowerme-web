@@ -1,0 +1,43 @@
+@import "../../../styles/variables.css";
+
+nav {
+	color: var(--secundary);
+	font-weight: bold;
+}
+
+nav > div {
+	background-color: var(--second-bg-color);
+	border-color: var(--border-color);
+	border-bottom-width: 0.1rem;
+	border-bottom-style: solid;
+}
+
+nav > div > div:first-child {
+	padding-top: 2rem;
+}
+
+nav > div > div {
+	padding: 1rem;
+	border-color: var(--border-color);
+	border-right-width: 0.1rem;
+	border-right-style: solid;
+cursor: pointer;
+	font-size: 0.8rem;
+	text-align: center;
+	margin-left: 0.8rem;
+}
+ 
+.menu-icon {
+	font-size: 1.5rem;
+	padding-bottom: .5rem;
+}
+.active {
+	background-color: var(--main-bg-color);
+	border-color: var(--border-color);
+	border-left-width: 0.1rem;
+	border-bottom-width: 0.1rem;
+	border-right-color: var(--main-bg-color);
+	border-right-width: 0.1rem;
+	border-top-width: 0.1rem;
+	border-style: solid;
+}
