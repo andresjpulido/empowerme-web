@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+[![GitHub stars](https://img.shields.io/github/stars/andresjpulido/empowerme-web)](https://github.com/andresjpulido/empowerme-web/stargazers)
+[![GitHub license](https://img.shields.io/github/license/andresjpulido/empowerme-web)](https://github.com/andresjpulido/empowerme-web/blob/main/LICENSE)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
